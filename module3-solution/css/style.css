@@ -1,239 +1,167 @@
 body {
-  font-size: 18px;
-  color: #000;
-  background-color: #fff;
-font-family: 'Oxygen', sans-serif;
-}
-
-#header-nav{
-  background-color: #A9A9A9;
-  border-radius: 0;
-  border: 0;
-}
-
-.navbar-brand{
-  font-family: 'Lora', serif;
-  padding-top: 15px;
-}
-
-
-.navbar-brand h1{
-  font-family: 'Lora', serif;
-  color: #fff;
-  font-size: 1.2em;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-weight: bold;
-  text-shadow: .25px .25px .25px #000000;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus{
-  text-decoration: none;
-}
-.navbar-brand p{
-  color: #fff5fe;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span{
-  vertical-align: middle;
-}
-#nav-list{
-  margin-top: 10px;
-}
-#nav-list a{
-  color: #951c49;
-  text-align: center;
-}
-#nav-list a:hover{
-  color: #e7e7e7;
-}
-#nav-list a span{
-  font-size: 1em;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-border: 1px solid #61122f;
-}
-
-.navbar-brand button.navbar-toggle{
-  clear: both;
-  margin-top: -30px;
-}
-
-.container-fluid .jumbotron{
-  box-shadow: 0 0 50px #3f0c1f;
-  border: 2px solid #3f0c1f;
-}
-
-#menu-tile, #specials-tile, #map-tile{
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3f0c1f;
-  overflow: hidden;
-}
-
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
-box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#menu-tile{
-  background: url(../images/jumbo1.jpg) no-repeat; 
-  background-position: center;
-}
-
-#specials-tile{
-  background: url(../images/jumbo2.jpg) no-repeat; 
-  background-position: center;
-}
-
-#menu-tile span, #specials-tile span, #map-tile span{
-position: absolute;
-  bottom: 0;
-  right: 0px;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000000;
-  color: #fff;
-  opacity: .8;
-}
-
-
-.panel-footer{
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 38px;
-  background-color: #222;
-  border-top: 0;
-}
-
-.panel-footer div.row{
-  margin-bottom: 35px;
-}
-
-#hours, #address{
-  line-height: 2;
-}
-
-#hours > span,  #address > span{
-  font-size: 1.3em;
-}
- #address p{
- color: #557c3e;
- font-size: .8em;
- line-height: 1.8;
-}
-#testimonials p:nth-child(2){ 
-  margin-top: 25px;
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .container-fluid .jumbotron{
-    background: url('../images/jumbo3.jpg');
-    height: 500px;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .container-fluid .jumbotron{
-    background: url('../images/jumbo2.jpg');
-    height: 400px;
+  #Chicken, #Beef, #Suchi{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    background-color: #B7B7B7;
   }
+.menutitle h1{
+    text-align: center;
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) 
-{
-  .container-fluid .jumbotron{
-    background: url('../images/jumbo3.jpg');
-    height: 400px;
+  #header-nav{
+    background-color: #B7B7B7;
+    border-radius: 0;
+    border: 0;
   }
 
-
-  #map-tile{
-    width: auto;
+  div.row{
+padding: 20px;
   }
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 400px) and  (max-width: 767px){
-
-.navbar-brand{
-  padding-top: 10px;
-  height: 80px;
-}
-
-.navbar-brand h1{
-  padding-top: 10px;
-  font-size: 5vw;
-}
-
-.navbar-brand p{
- text-transform: uppercase;
- font-size: .6em;
- margin-top: 12px;
-}
-
-.navbar-brand p img{
-height: 20px;
-
-}
-#collapsable-nav a{
-  font-size: 1.2em;
-}
-#collapsable-nav a span{
-  font-size: 1em;
-  margin-right: 10px;
-}
-
-.container-fluid .jumbotron{
-  margin-top: 30px;
-  padding: 0;
-}
-
-.panel-footer section{
-  margin-bottom: 30px;
-  text-align: center;
-}
-.panel-footer section:nth-child(3){
- margin-bottom: 0;
-}
-.panel-footer section hr{
-  width: 50%;
-}
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 399px) {
-  #logo-img{
-   display: none;
+  .navbar-brand{
+    font-family: 'Lora', serif;
+    padding-top: 25px;
   }
-
-  .container-fluid .jumbotron{
-    margin-top: 30px;
-    padding: 0;
+  
+ 
+  .navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #000;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-weight: bolder;
+    text-shadow: .25px .25px .25px #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
   }
-
-  .panel-footer section{
-    margin-bottom: 30px;
+  
+  .navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+  }
+  .navbar-brand p{
+    color: #fff5fe;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span{
+    vertical-align: middle;
+  }
+  #nav-list{
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #nav-list a{
+    color: #000;
     text-align: center;
   }
-  .panel-footer section:nth-child(3){
-   margin-bottom: 0;
+  #nav-list a:hover{
+    color: #933131;
   }
-  .panel-footer section hr{
-    width: 50%;
+  #nav-list a span{
+    font-size: 1em;
   }
-}
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #000;
+  }
+  
+  .navbar-brand button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+  }
+  
+  .container-fuid h1{
+text-align: center;
+font-weight: bolder;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 40px;
+  }
+
+  .row h1{
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 25px;
+  }
+
+  .Suchi p, .Chicken p, .Beef p {
+   padding: 8px;
+      }
+
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+    .Chicken h1{
+        margin-top: 20px;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) 
+  {
+    .Chicken h1{
+        margin-top: 20px;
+      }
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 400px) and  (max-width: 767px){
+    #Chicken h1{
+        margin-top: 25px;
+          }
+  .navbar-brand{
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  
+  .navbar-brand p{
+   text-transform: uppercase;
+   font-size: .6em;
+   margin-top: 12px;
+  }
+  #collapsable-nav{
+    background-color: #fff;
+  }
+
+  #collapsable-nav a{
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  .backtotop{
+    text-align: center;
+  }
+
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 399px) {
+    .backtotop{
+        text-align: center;
+      }
+
+  }
